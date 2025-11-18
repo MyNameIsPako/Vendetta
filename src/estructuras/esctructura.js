@@ -8,7 +8,7 @@ const config = require("../configuraciones/base.js");
 const comandos = require("../handlers/funciones/comandos.js");
 const eventos = require("../handlers/funciones/eventos.js");
 const deploy = require("../handlers/funciones/deploy.js");
-const taxis = require("../handlers/TaxiBots/taxis.js");
+const taxis = require("../handlers/taxibots/taxis.js");
 const db = require("../handlers/db/mongo");
 const componentes = require("../handlers/funciones/componentes.js");
 

@@ -1,13 +1,5 @@
-const {
-  ButtonInteraction,
-  ButtonBuilder,
-  ButtonStyle,
-  ActionRowBuilder,
-  EmbedBuilder,
-  Colors,
-} = require("discord.js");
+const { ButtonInteraction, EmbedBuilder, Colors } = require("discord.js");
 const ExtendedClient = require("../../estructuras/esctructura");
-const config = require("../../configuraciones/base.js");
 const dbUsuarios = require("../../schemas/usuarioInfo");
 
 module.exports = {
