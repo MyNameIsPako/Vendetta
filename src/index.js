@@ -23,7 +23,7 @@ require("dotenv").config();
 /**
  * Aqui añadimos el cliente extendido que hemos creado para añadirle mas funciones.
  */
-const estructura = require("./estructuras/esctructura.js");
+const estructura = require('./estructuras/esctructura.js');
 const Vendetta = new estructura();
 
 /**
